@@ -1,7 +1,7 @@
 from flask import Flask, render_template
 import json
 import os
-import re
+from datetime import datetime, timedelta
 
 app = Flask(__name__)
 
@@ -19,13 +19,10 @@ def extract_version(cycle):
             return 0, 0
     return 0, 0
 
-@app.route('/')
-def index():
-    # Load application names from applications.json
-    with open('applications.json', 'r') as f:
-        applications = json.load(f)
+with open('applications.json', 'r') as f:
+    applications = json.load(f)
 
-    # Collect data for each application
+def get_application_data():
     application_data = []
     for app_name in applications:
         # Load data from corresponding JSON file in api_responses folder
@@ -45,9 +42,21 @@ def index():
             'releases': app_info,  # Add list of releases
             'latest_lts': any(release.get('lts', False) for release in app_info)
         })
+    return application_data
 
+# Define application data globally
+application_data = get_application_data()
+
+@app.route('/')
+def index():
     # Render HTML template with application data
     return render_template('index.html', applications=application_data)
+
+# Route for the report page
+@app.route('/report')
+def report():
+    # Render HTML template with application data and datetime module
+    return render_template('report.html', applications=application_data, datetime=datetime, timedelta=timedelta)
 
 if __name__ == '__main__':
     app.run(debug=True)

@@ -22,7 +22,7 @@
             background-color: #f2f2f2;
         }
         .lts {
-            background-color: lightgray;
+            background-color: yellow;
         }
     </style>
 </head>
@@ -30,6 +30,9 @@
     <h1>Application Versions</h1>
     <div class="search-box mb-3">
         <input type="text" id="searchInput" placeholder="Search for application..." class="form-control">
+    </div>
+    <div>
+        <a href="/report" class="btn btn-primary mb-3">View Report</a>
     </div>
     <table>
         <thead>
@@ -46,7 +49,7 @@
                 <td>
                     <a href="#" data-toggle="modal" data-target="#appModal{{ loop.index }}">
                         {% if app.latest_lts %}
-                            <span class="lts">{{ app.name }} - LTS</span>
+                            <span class="lts">{{ app.name }} LTS</span>
                         {% else %}
                             {{ app.name }}
                         {% endif %}
@@ -71,12 +74,11 @@
                             <ul>
                                 {% for release in app.releases %}
                                     <li {% if release.lts %} class="lts" {% endif %}>
-                                        <strong>Version: </strong>{{ release.cycle }} - {% if release.lts %} <strong>Long Term Support</strong>{% endif %}<br>
+                                        <strong>Version: </strong>{{ release.cycle }}<br>
                                         <strong>Release Date: </strong>{{ release.releaseDate }}<br>
                                         <strong>Latest Version: </strong>{{ release.latest }}<br>
                                         <strong>Latest Release Date: </strong>{{ release.latestReleaseDate }}<br>
-                                        <strong>End of Life: </strong>{{ release.eol }}<br>
-                                    
+                                        <strong>End of Life: </strong>{{ release.eol }}{% if release.lts %} Long Term Support{% endif %}
                                     </li>
                                 {% endfor %}
                             </ul>
