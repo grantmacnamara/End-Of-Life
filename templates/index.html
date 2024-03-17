@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,18 +23,23 @@
             background-color: #f2f2f2;
         }
         .lts {
-            background-color: yellow;
+            background-color: lightgray;
+        }
+        .search-box {
+            margin-top: 10px;
+            margin-right: 10px;
+            float: right;
+        }
+
+        .search-box input[type="text"] {
+            width: 150px;
         }
     </style>
 </head>
+
 <body>
-    <h1>Application Versions</h1>
-    <div class="search-box mb-3">
-        <input type="text" id="searchInput" placeholder="Search for application..." class="form-control">
-    </div>
-    <div>
-        <a href="/report" class="btn btn-primary mb-3">View Report six months</a>
-    </div>
+    <h1>Application Lifecycle - End Of Life</h1>
+    {% include 'menu.html' %}
     <table>
         <thead>
             <tr>

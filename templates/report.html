@@ -8,37 +8,50 @@
 </head>
 <body>
     <h1>Applications Going Out of Date within Six Months</h1>
-    <a href="/" class="btn btn-primary">Home</a>
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Application</th>
-                <th>Latest Version</th>
-                <th>Release Date</th>
-                <th>End of Life</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for app in applications %}
-                {% set six_months_from_today = datetime.utcnow() + timedelta(days=180) %}
-                {% if app.end_of_life and app.end_of_life != 'N/A' and app.end_of_life != true %}
-                    {% if app.end_of_life == true %}
-                        {% set eol_date = six_months_from_today %}
-                    {% else %}
-                        {% set eol_date = datetime.strptime(app.end_of_life, '%Y-%m-%d') %}
+    {% include 'menu.html' %}
+    <div class="container">
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Application</th>
+                    <th>Latest Version</th>
+                    <th>Release Date</th>
+                    <th>End of Life</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for app in applications %}
+                    {% set six_months_from_today = datetime.utcnow() + timedelta(days=180) %}
+                    {% if app.end_of_life and app.end_of_life != 'N/A' and app.end_of_life != true %}
+                        {% if app.end_of_life == true %}
+                            {% set eol_date = six_months_from_today %}
+                        {% else %}
+                            {% set eol_date = datetime.strptime(app.end_of_life, '%Y-%m-%d') %}
+                        {% endif %}
+                        {% if eol_date <= six_months_from_today %}
+                            <tr>
+                                <td>{{ app.name }}</td>
+                                <td>{{ app.latest_version }}</td>
+                                <td>{{ app.release_date }}</td>
+                                <td>{{ app.end_of_life }}</td>
+                            </tr>
+                        {% endif %}
                     {% endif %}
-                    {% if eol_date <= six_months_from_today %}
-                        <tr>
-                            <td>{{ app.name }}</td>
-                            <td>{{ app.latest_version }}</td>
-                            <td>{{ app.release_date }}</td>
-                            <td>{{ app.end_of_life }}</td>
-                        </tr>
-                    {% endif %}
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
-    
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#searchInput").on("keyup", function() {
+                var value = $(this).val().toLowerCase();
+                $("tbody tr").filter(function() {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+            });
+        });
+    </script>  
 </body>
 </html>
