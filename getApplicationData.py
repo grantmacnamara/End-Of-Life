@@ -3,7 +3,7 @@ import requests
 import os
 
 
-file_path=r"C:\Users\grant\development\applications.json"
+file_path=r"./output"
 # Read the contents of the JSON file
 with open(file_path, 'r') as file:
     data = json.load(file)
@@ -18,7 +18,7 @@ API_ENDPOINT = "https://endoflife.date/api/{}.json"
 api_results = {}
 
 # Directory to save JSON files
-output_directory = r"C:\Users\grant\development/api_responses/"
+output_directory = r"./output"
 
 # Iterate over each element in data
 for item in data:
