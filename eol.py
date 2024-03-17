@@ -19,40 +19,39 @@ def extract_version(cycle):
             return 0, 0
     return 0, 0
 
-with open('./data/applications.json', 'r') as f:
-    applications = json.load(f)
+# Function to load application data from JSON files
+def load_application_data():
+    with open('./data/applications.json', 'r') as f:
+        return json.load(f)
 
-def get_application_data():
+# Function to retrieve application data
+def get_application_data(applications):
     application_data = []
     for app_name in applications:
-        # Load data from corresponding JSON file in api_responses folder
         json_file = os.path.join('./data/api_responses', f'{app_name}.json')
         with open(json_file, 'r') as f:
             app_info = json.load(f)
-
-        # Find the latest release based on highest 'cycle' treated as version
+        
         latest_release = max(app_info, key=lambda x: extract_version(x.get('cycle', '0-0')))
-
-        # Append relevant data to application_data list
+        
         application_data.append({
             'name': app_name,
             'latest_version': latest_release.get('cycle', 'N/A'),
             'release_date': latest_release.get('releaseDate', 'N/A'),
             'end_of_life': latest_release.get('eol', 'N/A'),
-            'releases': app_info,  # Add list of releases
+            'releases': app_info,
             'latest_lts': any(release.get('lts', False) for release in app_info)
         })
     return application_data
 
-# Define application data globally
-application_data = get_application_data()
+# Load application data globally
+application_data = get_application_data(load_application_data())
 
 @app.route('/')
 def index():
     # Render HTML template with application data
     return render_template('index.html', applications=application_data)
 
-# Route for the report page
 @app.route('/report')
 def report():
     # Render HTML template with application data and datetime module
