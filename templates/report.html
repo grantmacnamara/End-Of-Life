@@ -5,53 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Report Page</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
     <h1>Applications Going Out of Date within Six Months</h1>
+    <!-- Include the menu -->
     {% include 'menu.html' %}
-    <div class="container">
-
-        <table class="table">
-            <thead>
-                <tr>
-                    <th>Application</th>
-                    <th>Latest Version</th>
-                    <th>Release Date</th>
-                    <th>End of Life</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for app in applications %}
-                    {% set six_months_from_today = datetime.utcnow() + timedelta(days=180) %}
-                    {% if app.end_of_life and app.end_of_life != 'N/A' and app.end_of_life != true %}
-                        {% if app.end_of_life == true %}
-                            {% set eol_date = six_months_from_today %}
-                        {% else %}
-                            {% set eol_date = datetime.strptime(app.end_of_life, '%Y-%m-%d') %}
-                        {% endif %}
-                        {% if eol_date <= six_months_from_today %}
-                            <tr>
-                                <td>{{ app.name }}</td>
-                                <td>{{ app.latest_version }}</td>
-                                <td>{{ app.release_date }}</td>
-                                <td>{{ app.end_of_life }}</td>
-                            </tr>
-                        {% endif %}
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Application</th>
+                <th>Latest Version</th>
+                <th>Release Date</th>
+                <th>End of Life</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for app in applications %}
+                {% set six_months_from_today = datetime.utcnow() + timedelta(days=180) %}
+                {% if app.end_of_life and app.end_of_life != 'N/A' and app.end_of_life != true %}
+                    {% if app.end_of_life == true %}
+                        {% set eol_date = six_months_from_today %}
+                    {% else %}
+                        {% set eol_date = datetime.strptime(app.end_of_life, '%Y-%m-%d') %}
                     {% endif %}
-                {% endfor %}
-            </tbody>
-        </table>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script>
-        $(document).ready(function(){
-            $("#searchInput").on("keyup", function() {
-                var value = $(this).val().toLowerCase();
-                $("tbody tr").filter(function() {
-                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-                });
-            });
-        });
-    </script>  
+                    {% if eol_date <= six_months_from_today %}
+                        <tr>
+                            <td>
+                                <!-- Application name with pop-up trigger -->
+                                <a href="#" data-toggle="modal" data-target="#appModal{{ loop.index }}">{{ app.name }}</a>
+                            </td>
+                            <td>{{ app.latest_version }}</td>
+                            <td>{{ app.release_date }}</td>
+                            <td>{{ app.end_of_life }}</td>
+                        </tr>
+                        <!-- Modal -->
+                        <div class="modal fade" id="appModal{{ loop.index }}" tabindex="-1" role="dialog" aria-labelledby="appModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <!-- Modal title -->
+                                        <h5 class="modal-title" id="appModalLabel">{{ app.name }} Information</h5>
+                                        <!-- Close button -->
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <!-- List of application versions -->
+                                        <h5>All Versions:</h5>
+                                        <ul>
+                                            {% for release in app.releases %}
+                                                <li {% if release.lts %} class="lts" {% endif %}>
+                                                    <!-- Version details -->
+                                                    <strong>Version: </strong>{{ release.cycle }}<br>
+                                                    <strong>Release Date: </strong>{{ release.releaseDate }}<br>
+                                                    <strong>Latest Version: </strong>{{ release.latest }}<br>
+                                                    <strong>Latest Release Date: </strong>{{ release.latestReleaseDate }}<br>
+                                                    <strong>End of Life: </strong>{{ release.eol }}{% if release.lts %} Long Term Support{% endif %}
+                                                </li>
+                                            {% endfor %}
+                                        </ul>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <!-- Close button -->
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
 </body>
 </html>
