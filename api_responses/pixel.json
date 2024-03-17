@@ -1,0 +1,178 @@
+[
+    {
+        "cycle": "8",
+        "releaseLabel": "Pixel 8 / Pro",
+        "releaseDate": "2023-10-04",
+        "support": "2030-10-01",
+        "eol": "2030-10-01",
+        "discontinued": false,
+        "link": "https://en.wikipedia.org/wiki/Pixel_8",
+        "supportedAndroidVersions": 14,
+        "lts": false
+    },
+    {
+        "cycle": "fold",
+        "releaseLabel": "Pixel Fold",
+        "releaseDate": "2023-06-28",
+        "support": "2026-06-01",
+        "eol": "2028-06-01",
+        "discontinued": false,
+        "link": "https://en.wikipedia.org/wiki/Pixel_Fold",
+        "supportedAndroidVersions": "13 - 14",
+        "lts": false
+    },
+    {
+        "cycle": "tablet",
+        "releaseLabel": "Pixel Tablet",
+        "releaseDate": "2023-06-20",
+        "support": "2026-06-01",
+        "eol": "2028-06-01",
+        "discontinued": false,
+        "link": "https://en.wikipedia.org/wiki/Pixel_Tablet",
+        "supportedAndroidVersions": "13 - 14",
+        "lts": false
+    },
+    {
+        "cycle": "7a",
+        "releaseLabel": "Pixel 7a",
+        "releaseDate": "2023-05-10",
+        "support": "2026-05-01",
+        "eol": "2028-05-01",
+        "discontinued": false,
+        "link": "https://en.wikipedia.org/wiki/Pixel_7a",
+        "supportedAndroidVersions": "13 - 14",
+        "lts": false
+    },
+    {
+        "cycle": "7",
+        "releaseLabel": "Pixel 7 / Pro",
+        "releaseDate": "2022-10-13",
+        "support": "2025-10-01",
+        "eol": "2027-10-01",
+        "discontinued": false,
+        "link": "https://en.wikipedia.org/wiki/Pixel_7",
+        "supportedAndroidVersions": "13 - 14",
+        "lts": false
+    },
+    {
+        "cycle": "6a",
+        "releaseLabel": "Pixel 6a",
+        "releaseDate": "2022-07-28",
+        "support": "2025-07-01",
+        "eol": "2027-07-01",
+        "discontinued": false,
+        "link": "https://en.wikipedia.org/wiki/Pixel_6a",
+        "supportedAndroidVersions": "12 - 14",
+        "lts": false
+    },
+    {
+        "cycle": "6",
+        "releaseLabel": "Pixel 6 / Pro",
+        "releaseDate": "2021-10-28",
+        "support": "2024-10-01",
+        "eol": "2026-10-01",
+        "discontinued": "2022-10-06",
+        "link": "https://en.wikipedia.org/wiki/Pixel_6",
+        "supportedAndroidVersions": "12 - 14",
+        "lts": false
+    },
+    {
+        "cycle": "5a",
+        "releaseLabel": "Pixel 5a",
+        "releaseDate": "2021-08-26",
+        "support": "2024-08-01",
+        "eol": "2024-08-01",
+        "discontinued": "2022-07-21",
+        "link": "https://en.wikipedia.org/wiki/Pixel_5a",
+        "supportedAndroidVersions": "11 - 14",
+        "lts": false
+    },
+    {
+        "cycle": "4a-5g",
+        "releaseLabel": "Pixel 4a (5G)",
+        "releaseDate": "2020-11-05",
+        "support": "2023-11-05",
+        "eol": "2023-11-05",
+        "discontinued": "2021-08-20",
+        "link": "https://en.wikipedia.org/wiki/Pixel_4a",
+        "supportedAndroidVersions": "11 - 14",
+        "lts": false
+    },
+    {
+        "cycle": "5",
+        "releaseLabel": "Pixel 5",
+        "releaseDate": "2020-10-15",
+        "support": "2023-11-05",
+        "eol": "2023-11-05",
+        "discontinued": "2021-08-20",
+        "link": "https://en.wikipedia.org/wiki/Pixel_5",
+        "supportedAndroidVersions": "11 - 14",
+        "lts": false
+    },
+    {
+        "cycle": "4a",
+        "releaseLabel": "Pixel 4a",
+        "releaseDate": "2020-08-20",
+        "support": "2023-08-05",
+        "eol": "2023-08-05",
+        "discontinued": "2022-01-31",
+        "link": "https://en.wikipedia.org/wiki/Pixel_4a",
+        "supportedAndroidVersions": "10 - 13",
+        "lts": false
+    },
+    {
+        "cycle": "4",
+        "releaseLabel": "Pixel 4 / XL",
+        "releaseDate": "2019-10-24",
+        "support": "2022-10-05",
+        "eol": "2022-10-05",
+        "discontinued": "2020-08-06",
+        "link": "https://en.wikipedia.org/wiki/Pixel_4",
+        "supportedAndroidVersions": "10 - 13",
+        "lts": false
+    },
+    {
+        "cycle": "3a",
+        "releaseLabel": "Pixel 3a / XL",
+        "releaseDate": "2019-05-07",
+        "support": "2022-05-05",
+        "eol": "2022-05-05",
+        "discontinued": "2020-07-01",
+        "link": "https://en.wikipedia.org/wiki/Pixel_3a",
+        "supportedAndroidVersions": "9 - 12.1",
+        "lts": false
+    },
+    {
+        "cycle": "3",
+        "releaseLabel": "Pixel 3 / XL",
+        "releaseDate": "2018-10-09",
+        "support": "2021-10-05",
+        "eol": "2021-10-05",
+        "discontinued": "2020-03-31",
+        "link": "https://en.wikipedia.org/wiki/Pixel_3",
+        "supportedAndroidVersions": "9 - 12",
+        "lts": false
+    },
+    {
+        "cycle": "2",
+        "releaseLabel": "Pixel 2 / XL",
+        "releaseDate": "2017-10-19",
+        "support": "2020-10-05",
+        "eol": "2020-10-05",
+        "discontinued": "2019-04-01",
+        "link": "https://en.wikipedia.org/wiki/Pixel_2",
+        "supportedAndroidVersions": "8 - 11",
+        "lts": false
+    },
+    {
+        "cycle": "1",
+        "releaseLabel": "Pixel / Pixel XL",
+        "releaseDate": "2016-10-20",
+        "support": "2019-10-06",
+        "eol": "2019-10-06",
+        "discontinued": "2018-04-11",
+        "link": "https://en.wikipedia.org/wiki/Pixel_(1st_generation)",
+        "supportedAndroidVersions": "7.1 - 10",
+        "lts": false
+    }
+]

@@ -1,0 +1,113 @@
+[
+    {
+        "cycle": "4.2",
+        "releaseDate": "2023-11-29",
+        "support": true,
+        "eol": false,
+        "latest": "4.2.1",
+        "latestReleaseDate": "2023-12-11",
+        "link": "https://godotengine.org/article/godot-4-2-arrives-in-style/",
+        "lts": false
+    },
+    {
+        "cycle": "4.1",
+        "releaseDate": "2023-07-05",
+        "support": true,
+        "eol": false,
+        "latest": "4.1.3",
+        "latestReleaseDate": "2023-11-01",
+        "lts": false
+    },
+    {
+        "cycle": "4.0",
+        "releaseDate": "2023-03-01",
+        "support": true,
+        "eol": false,
+        "latest": "4.0.4",
+        "latestReleaseDate": "2023-08-02",
+        "lts": false
+    },
+    {
+        "cycle": "3.5",
+        "releaseDate": "2022-08-05",
+        "lts": true,
+        "support": true,
+        "eol": false,
+        "latest": "3.5.3",
+        "latestReleaseDate": "2023-09-24"
+    },
+    {
+        "cycle": "3.4",
+        "releaseDate": "2021-11-05",
+        "support": "2022-08-05",
+        "eol": "2022-08-05",
+        "latest": "3.4.5",
+        "latestReleaseDate": "2022-08-01",
+        "lts": false
+    },
+    {
+        "cycle": "3.3",
+        "releaseDate": "2021-04-21",
+        "support": "2021-11-05",
+        "eol": "2021-11-05",
+        "latest": "3.3.4",
+        "latestReleaseDate": "2021-10-01",
+        "lts": false
+    },
+    {
+        "cycle": "3.2",
+        "releaseDate": "2020-01-29",
+        "support": "2021-04-21",
+        "eol": "2021-04-21",
+        "latest": "3.2.3",
+        "latestReleaseDate": "2020-09-16",
+        "lts": false
+    },
+    {
+        "cycle": "3.1",
+        "releaseDate": "2019-03-13",
+        "support": "2020-01-29",
+        "eol": "2020-01-29",
+        "latest": "3.1.2",
+        "latestReleaseDate": "2019-12-03",
+        "lts": false
+    },
+    {
+        "cycle": "3.0",
+        "releaseDate": "2018-01-29",
+        "support": false,
+        "eol": true,
+        "latest": "3.0.6",
+        "latestReleaseDate": "2018-07-31",
+        "lts": false
+    },
+    {
+        "cycle": "2.1",
+        "releaseDate": "2016-08-09",
+        "lts": true,
+        "support": false,
+        "eol": true,
+        "latest": "2.1.6",
+        "latestReleaseDate": "2019-07-08"
+    },
+    {
+        "cycle": "2.0",
+        "releaseDate": "2016-02-22",
+        "support": false,
+        "eol": true,
+        "latest": "2.0.4.1",
+        "latestReleaseDate": "2016-07-10",
+        "link": "https://godotengine.org/article/maintenance-release-godot-2-0-4",
+        "lts": false
+    },
+    {
+        "cycle": "1.0",
+        "releaseDate": "2014-12-15",
+        "support": false,
+        "eol": true,
+        "link": "https://godotengine.org/article/godot-engine-reaches-1-0/",
+        "latest": "1.0",
+        "latestReleaseDate": "2014-12-15",
+        "lts": false
+    }
+]

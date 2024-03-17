@@ -1,0 +1,142 @@
+[
+    {
+        "cycle": "RR4360X",
+        "eol": true,
+        "lts": false
+    },
+    {
+        "cycle": "RR4360S",
+        "eol": true,
+        "lts": false
+    },
+    {
+        "cycle": "RR4312X",
+        "eol": true,
+        "lts": false
+    },
+    {
+        "cycle": "RR3312",
+        "eol": true,
+        "lts": false
+    },
+    {
+        "cycle": "RR2304",
+        "eol": true,
+        "lts": false
+    },
+    {
+        "cycle": "RN716X",
+        "eol": true,
+        "lts": false
+    },
+    {
+        "cycle": "RN628X",
+        "eol": true,
+        "lts": false
+    },
+    {
+        "cycle": "RN626X",
+        "eol": true,
+        "lts": false
+    },
+    {
+        "cycle": "RN528X",
+        "eol": true,
+        "lts": false
+    },
+    {
+        "cycle": "RN526X",
+        "eol": true,
+        "lts": false
+    },
+    {
+        "cycle": "RN524X",
+        "eol": true,
+        "lts": false
+    },
+    {
+        "cycle": "RN516",
+        "eol": true,
+        "lts": false
+    },
+    {
+        "cycle": "RN426",
+        "eol": true,
+        "lts": false
+    },
+    {
+        "cycle": "RN424",
+        "eol": true,
+        "lts": false
+    },
+    {
+        "cycle": "RN422",
+        "eol": true,
+        "lts": false
+    },
+    {
+        "cycle": "RN3220",
+        "eol": true,
+        "lts": false
+    },
+    {
+        "cycle": "RN316",
+        "eol": true,
+        "lts": false
+    },
+    {
+        "cycle": "RN314",
+        "eol": true,
+        "lts": false
+    },
+    {
+        "cycle": "RN3138",
+        "eol": false,
+        "lts": false
+    },
+    {
+        "cycle": "RN3130",
+        "eol": true,
+        "lts": false
+    },
+    {
+        "cycle": "RN312",
+        "eol": true,
+        "lts": false
+    },
+    {
+        "cycle": "RN214",
+        "eol": false,
+        "lts": false
+    },
+    {
+        "cycle": "RN2120",
+        "eol": true,
+        "lts": false
+    },
+    {
+        "cycle": "RN212",
+        "eol": false,
+        "lts": false
+    },
+    {
+        "cycle": "RN204",
+        "eol": true,
+        "lts": false
+    },
+    {
+        "cycle": "RN202",
+        "eol": true,
+        "lts": false
+    },
+    {
+        "cycle": "RN104",
+        "eol": true,
+        "lts": false
+    },
+    {
+        "cycle": "RN102",
+        "eol": true,
+        "lts": false
+    }
+]

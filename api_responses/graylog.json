@@ -1,0 +1,184 @@
+[
+    {
+        "cycle": "5.2",
+        "releaseDate": "2023-10-30",
+        "eol": false,
+        "latest": "5.2.5",
+        "latestReleaseDate": "2024-03-06",
+        "lts": false
+    },
+    {
+        "cycle": "5.1",
+        "releaseDate": "2023-05-11",
+        "eol": false,
+        "latest": "5.1.12",
+        "latestReleaseDate": "2024-03-06",
+        "lts": false
+    },
+    {
+        "cycle": "5.0",
+        "releaseDate": "2022-11-30",
+        "eol": "2023-10-30",
+        "latest": "5.0.13",
+        "latestReleaseDate": "2023-10-12",
+        "lts": false
+    },
+    {
+        "cycle": "4.3",
+        "releaseDate": "2022-05-17",
+        "eol": "2023-05-11",
+        "latest": "4.3.15",
+        "latestReleaseDate": "2023-05-03",
+        "lts": false
+    },
+    {
+        "cycle": "4.2",
+        "releaseDate": "2021-10-13",
+        "eol": "2022-11-30",
+        "latest": "4.2.13",
+        "latestReleaseDate": "2022-09-16",
+        "lts": false
+    },
+    {
+        "cycle": "4.1",
+        "releaseDate": "2021-06-23",
+        "eol": "2022-05-17",
+        "latest": "4.1.14",
+        "latestReleaseDate": "2022-04-12",
+        "lts": false
+    },
+    {
+        "cycle": "4.0",
+        "releaseDate": "2020-11-17",
+        "eol": "2021-10-13",
+        "latest": "4.0.17",
+        "latestReleaseDate": "2022-07-06",
+        "lts": false
+    },
+    {
+        "cycle": "3.3",
+        "releaseDate": "2020-05-20",
+        "eol": "2022-04-12",
+        "latest": "3.3.17",
+        "latestReleaseDate": "2022-04-12",
+        "link": "https://go2docs.graylog.org/4-0/changelogs/changelog.html#Graylog3317",
+        "lts": false
+    },
+    {
+        "cycle": "3.2",
+        "releaseDate": "2020-01-31",
+        "eol": "2020-05-20",
+        "latest": "3.2.6",
+        "latestReleaseDate": "2020-06-10",
+        "link": "https://graylog.org/post/announcing-graylog-v3-2-6/",
+        "lts": false
+    },
+    {
+        "cycle": "3.1",
+        "releaseDate": "2019-08-15",
+        "eol": "2020-01-31",
+        "latest": "3.1.4",
+        "latestReleaseDate": "2020-01-14",
+        "link": "https://graylog.org/post/announcing-graylog-3-1-4/",
+        "lts": false
+    },
+    {
+        "cycle": "3.0",
+        "releaseDate": "2019-02-11",
+        "eol": "2019-08-15",
+        "latest": "3.0.2",
+        "latestReleaseDate": "2019-05-03",
+        "link": "https://graylog.org/post/announcing-graylog-3-0-2/",
+        "lts": false
+    },
+    {
+        "cycle": "2.5",
+        "releaseDate": "2018-12-01",
+        "eol": "2019-02-11",
+        "latest": "2.5.2",
+        "latestReleaseDate": "2019-03-15",
+        "link": "https://graylog.org/post/announcing-graylog-v2-5/",
+        "lts": false
+    },
+    {
+        "cycle": "2.4",
+        "releaseDate": "2017-12-22",
+        "eol": "2019-03-01",
+        "latest": "2.4.7",
+        "latestReleaseDate": "2019-03-01",
+        "link": "https://graylog.org/post/announcing-the-release-of-graylog-2-4-6/",
+        "lts": false
+    },
+    {
+        "cycle": "2.3",
+        "releaseDate": "2017-07-26",
+        "eol": "2017-12-22",
+        "latest": "2.3.2",
+        "latestReleaseDate": "2017-10-19",
+        "link": "https://graylog.org/post/announcing-graylog-v2-3-2/",
+        "lts": false
+    },
+    {
+        "cycle": "2.2",
+        "releaseDate": "2017-02-09",
+        "eol": "2017-07-26",
+        "latest": "2.2.3",
+        "latestReleaseDate": "2017-04-04",
+        "link": "https://graylog.org/post/announcing-graylog-v2-2-3/",
+        "lts": false
+    },
+    {
+        "cycle": "2.1",
+        "releaseDate": "2016-09-01",
+        "eol": "2017-02-09",
+        "latest": "2.1.3",
+        "latestReleaseDate": "2017-01-26",
+        "link": "https://graylog.org/post/announcing-graylog-2-1-3/",
+        "lts": false
+    },
+    {
+        "cycle": "2.0",
+        "releaseDate": "2016-04-26",
+        "eol": "2016-09-01",
+        "latest": "2.0.3",
+        "latestReleaseDate": "2016-06-20",
+        "link": "https://graylog.org/post/graylog-v2-0-3-released/",
+        "lts": false
+    },
+    {
+        "cycle": "1.3",
+        "releaseDate": "2015-12-08",
+        "eol": "2016-04-26",
+        "latest": "1.3.4",
+        "latestReleaseDate": "2016-03-16",
+        "link": "https://graylog.org/post/graylog-1-3-4-is-now-available/",
+        "lts": false
+    },
+    {
+        "cycle": "1.2",
+        "releaseDate": "2015-09-14",
+        "eol": "2015-12-08",
+        "latest": "1.2.2",
+        "latestReleaseDate": "2015-10-26",
+        "link": "https://graylog.org/post/graylog-1-2-2-is-now-available/",
+        "lts": false
+    },
+    {
+        "cycle": "1.1",
+        "releaseDate": "2015-06-04",
+        "eol": "2015-09-14",
+        "latest": "1.1.6",
+        "latestReleaseDate": "2015-08-06",
+        "link": "https://graylog.org/post/graylog-1-1-6-released/",
+        "lts": false
+    },
+    {
+        "cycle": "1.0",
+        "releaseDate": "2015-02-17",
+        "eol": "2015-06-04",
+        "latest": "1.0.2",
+        "latestReleaseDate": "2015-04-28",
+        "link": null,
+        "lts": false
+    }
+]

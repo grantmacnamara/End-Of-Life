@@ -1,0 +1,38 @@
+[
+    {
+        "cycle": "5",
+        "lts": true,
+        "releaseDate": "2021-05-05",
+        "support": true,
+        "eol": false,
+        "latest": "5.3.3",
+        "latestReleaseDate": "2024-02-20"
+    },
+    {
+        "cycle": "4",
+        "lts": true,
+        "releaseDate": "2018-01-18",
+        "support": false,
+        "eol": "2023-01-01",
+        "latest": "4.6.2",
+        "latestReleaseDate": "2022-07-19"
+    },
+    {
+        "cycle": "3",
+        "releaseDate": "2013-08-19",
+        "support": false,
+        "eol": "2019-07-24",
+        "latest": "3.4.1",
+        "latestReleaseDate": "2019-02-13",
+        "lts": false
+    },
+    {
+        "cycle": "2",
+        "releaseDate": "2012-01-31",
+        "support": false,
+        "eol": "2013-08-19",
+        "latest": "2.3.2",
+        "latestReleaseDate": "2013-07-26",
+        "lts": false
+    }
+]

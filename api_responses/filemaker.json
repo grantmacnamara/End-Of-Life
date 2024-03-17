@@ -1,0 +1,100 @@
+[
+    {
+        "cycle": "2023",
+        "releaseDate": "2023-06-06",
+        "eol": "2025-04-01",
+        "link": "https://help.claris.com/en/server-release-notes/content/index.html",
+        "lts": false
+    },
+    {
+        "cycle": "19",
+        "releaseDate": "2020-05-01",
+        "eol": "2024-12-01",
+        "link": "https://support.claris.com/s/answerview?anum=000036046",
+        "lts": false
+    },
+    {
+        "cycle": "18",
+        "releaseDate": "2019-05-01",
+        "eol": "2021-06-25",
+        "link": "https://support.claris.com/s/answerview?anum=000034744",
+        "lts": false
+    },
+    {
+        "cycle": "17",
+        "releaseDate": "2018-05-01",
+        "eol": "2020-09-18",
+        "link": "https://support.claris.com/s/answerview?anum=000032946",
+        "lts": false
+    },
+    {
+        "cycle": "16",
+        "releaseDate": "2017-05-01",
+        "eol": "2020-09-18",
+        "link": "https://support.claris.com/s/answerview?anum=000033289",
+        "lts": false
+    },
+    {
+        "cycle": "15",
+        "releaseDate": "2016-05-01",
+        "eol": "2019-09-20",
+        "link": "https://support.claris.com/s/article/FileMaker-Announces-end-of-support-for-FileMaker-15-Platform",
+        "lts": false
+    },
+    {
+        "cycle": "14",
+        "releaseDate": "2015-05-01",
+        "eol": "2018-09-21",
+        "link": "https://support.claris.com/s/article/FileMaker-announces-the-end-of-support-for-FileMaker-14-Platform",
+        "lts": false
+    },
+    {
+        "cycle": "13",
+        "releaseDate": "2013-12-01",
+        "eol": "2017-09-22",
+        "link": "https://support.claris.com/s/article/FileMaker-announces-the-end-of-support-for-FileMaker-13-Platform-1503693097684",
+        "lts": false
+    },
+    {
+        "cycle": "12",
+        "releaseDate": "2012-04-01",
+        "eol": "2016-09-23",
+        "link": "https://support.claris.com/s/article/FileMaker-announces-the-end-of-support-for-FileMaker-12-product-family-1503693084416",
+        "lts": false
+    },
+    {
+        "cycle": "11",
+        "releaseDate": "2010-03-01",
+        "eol": "2015-09-25",
+        "link": "https://support.claris.com/s/article/FileMaker-announces-end-of-support-for-FileMaker-11-product-family-1503693064486",
+        "lts": false
+    },
+    {
+        "cycle": "10",
+        "releaseDate": "2009-01-01",
+        "eol": "2014-09-27",
+        "link": "https://support.claris.com/s/article/FileMaker-announces-end-of-support-for-FileMaker-10-product-family-1503693016862",
+        "lts": false
+    },
+    {
+        "cycle": "9",
+        "releaseDate": "2007-07-01",
+        "eol": "2011-11-15",
+        "link": "https://support.claris.com/s/article/FileMaker-announces-end-of-support-for-FileMaker-9-product-family-1503693019973",
+        "lts": false
+    },
+    {
+        "cycle": "8",
+        "releaseDate": "2005-08-01",
+        "eol": "2010-09-23",
+        "link": "https://support.claris.com/s/article/FileMaker-announces-end-of-support-for-FileMaker-8-product-family-1503692966443",
+        "lts": false
+    },
+    {
+        "cycle": "7",
+        "releaseDate": "2004-03-01",
+        "eol": "2008-09-26",
+        "link": "https://support.claris.com/s/article/FileMaker-announces-end-of-support-for-FileMaker-7-product-family-1503692949742",
+        "lts": false
+    }
+]

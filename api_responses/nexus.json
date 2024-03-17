@@ -1,0 +1,20 @@
+[
+    {
+        "cycle": "3",
+        "releaseDate": "2017-04-07",
+        "eol": false,
+        "latest": "3.66.0-02",
+        "latestReleaseDate": "2024-03-06",
+        "link": "https://help.sonatype.com/repomanager3/product-information/release-notes",
+        "lts": false
+    },
+    {
+        "cycle": "2",
+        "releaseDate": "2017-03-31",
+        "eol": false,
+        "latest": "2.15.1-02",
+        "latestReleaseDate": "2022-03-23",
+        "link": "https://help.sonatype.com/repomanager2/release-notes",
+        "lts": false
+    }
+]

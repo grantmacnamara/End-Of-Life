@@ -1,0 +1,76 @@
+[
+    {
+        "cycle": "21",
+        "lts": true,
+        "releaseDate": "2023-08-25",
+        "eol": "2030-10-31",
+        "latest": "21.0.2.14.1",
+        "latestReleaseDate": "2024-02-09"
+    },
+    {
+        "cycle": "20",
+        "releaseDate": "2023-02-23",
+        "eol": "2023-10-17",
+        "latest": "20.0.2.10.1",
+        "latestReleaseDate": "2023-08-23",
+        "lts": false
+    },
+    {
+        "cycle": "19",
+        "releaseDate": "2022-08-17",
+        "eol": "2023-04-19",
+        "latest": "19.0.2.7.1",
+        "latestReleaseDate": "2023-01-17",
+        "lts": false
+    },
+    {
+        "cycle": "18",
+        "releaseDate": "2022-02-26",
+        "eol": "2022-10-18",
+        "latest": "18.0.2.9.1",
+        "latestReleaseDate": "2022-07-19",
+        "lts": false
+    },
+    {
+        "cycle": "17",
+        "lts": true,
+        "releaseDate": "2021-08-24",
+        "eol": "2029-10-31",
+        "latest": "17.0.10.8.1",
+        "latestReleaseDate": "2024-02-09"
+    },
+    {
+        "cycle": "16",
+        "releaseDate": "2021-04-23",
+        "eol": "2021-10-19",
+        "latest": "16.0.2.7.1",
+        "latestReleaseDate": "2022-04-19",
+        "link": "https://github.com/corretto/corretto-jdk/blob/release-__LATEST__/CHANGELOG.md",
+        "lts": false
+    },
+    {
+        "cycle": "15",
+        "releaseDate": "2020-08-26",
+        "eol": "2021-04-20",
+        "latest": "15.0.2.7.1",
+        "latestReleaseDate": "2021-01-21",
+        "link": "https://github.com/corretto/corretto-jdk/blob/216fca10a21d6a26ca2846d4ca2861ea644a7a1e/CHANGELOG.md#january-2021-critical-patch-update-corretto-version-150271",
+        "lts": false
+    },
+    {
+        "cycle": "11",
+        "lts": true,
+        "releaseDate": "2019-02-18",
+        "eol": "2027-10-31",
+        "latest": "11.0.22.7.1",
+        "latestReleaseDate": "2024-01-16"
+    },
+    {
+        "cycle": "8",
+        "lts": true,
+        "releaseDate": "2019-02-20",
+        "eol": "2026-07-31",
+        "latest": "8.402.08.1",
+        "latestReleaseDate": "2024-01-19"
+    }
+]

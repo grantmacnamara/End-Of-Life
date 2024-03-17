@@ -1,0 +1,162 @@
+[
+    {
+        "cycle": "5",
+        "releaseLabel": "5",
+        "releaseDate": "2023-10-23",
+        "discontinued": "2035-01-01",
+        "link": "https://www.raspberrypi.com/products/raspberry-pi-5/",
+        "lts": false
+    },
+    {
+        "cycle": "CM4S",
+        "releaseLabel": "Compute Module 4S",
+        "releaseDate": "2022-04-04",
+        "discontinued": "2031-01-01",
+        "link": "https://www.raspberrypi.com/products/compute-module-4s/",
+        "lts": false
+    },
+    {
+        "cycle": "zero-2-w",
+        "releaseLabel": "Zero 2 W",
+        "releaseDate": "2021-10-28",
+        "discontinued": "2028-01-01",
+        "link": "https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/",
+        "lts": false
+    },
+    {
+        "cycle": "pico",
+        "releaseLabel": "Pico",
+        "releaseDate": "2021-01-21",
+        "discontinued": "2028-01-01",
+        "link": "https://www.raspberrypi.com/products/raspberry-pi-pico/",
+        "lts": false
+    },
+    {
+        "cycle": "4-400",
+        "releaseLabel": "400",
+        "releaseDate": "2020-11-02",
+        "discontinued": "2026-01-01",
+        "link": "https://www.raspberrypi.com/products/raspberry-pi-400-unit/",
+        "lts": false
+    },
+    {
+        "cycle": "CM4",
+        "releaseLabel": "Compute Module 4",
+        "releaseDate": "2020-10-19",
+        "discontinued": "2031-01-01",
+        "link": "https://www.raspberrypi.com/products/compute-module-4/",
+        "lts": false
+    },
+    {
+        "cycle": "4-b",
+        "releaseLabel": "4 Model B",
+        "releaseDate": "2019-06-24",
+        "discontinued": "2031-01-01",
+        "link": "https://www.raspberrypi.com/products/raspberry-pi-4-model-b/",
+        "lts": false
+    },
+    {
+        "cycle": "CM3+",
+        "releaseLabel": "Compute Module 3+",
+        "releaseDate": "2019-01-28",
+        "discontinued": "2028-01-01",
+        "link": "https://www.raspberrypi.com/products/compute-module-3-plus/",
+        "lts": false
+    },
+    {
+        "cycle": "3-a+",
+        "releaseLabel": "3 Model A+",
+        "releaseDate": "2018-11-15",
+        "discontinued": "2028-01-01",
+        "link": "https://www.raspberrypi.com/products/raspberry-pi-3-model-a-plus/",
+        "lts": false
+    },
+    {
+        "cycle": "3-b+",
+        "releaseLabel": "3 Model B+",
+        "releaseDate": "2018-03-14",
+        "discontinued": "2028-01-01",
+        "link": "https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/",
+        "lts": false
+    },
+    {
+        "cycle": "zero-w",
+        "releaseLabel": "Zero W/WH",
+        "releaseDate": "2017-02-28",
+        "discontinued": "2026-01-01",
+        "link": "https://www.raspberrypi.com/products/raspberry-pi-zero-w/",
+        "lts": false
+    },
+    {
+        "cycle": "CM3",
+        "releaseLabel": "Compute Module 3",
+        "releaseDate": "2017-01-16",
+        "discontinued": "2028-01-01",
+        "link": "https://www.raspberrypi.com/products/compute-module-3/",
+        "lts": false
+    },
+    {
+        "cycle": "3-b",
+        "releaseLabel": "3 Model B",
+        "releaseDate": "2016-02-29",
+        "discontinued": "2028-01-01",
+        "link": "https://www.raspberrypi.com/products/raspberry-pi-3-model-b/",
+        "lts": false
+    },
+    {
+        "cycle": "zero",
+        "releaseLabel": "Zero",
+        "releaseDate": "2015-11-26",
+        "discontinued": "2026-01-01",
+        "link": "https://www.raspberrypi.com/products/raspberry-pi-zero/",
+        "lts": false
+    },
+    {
+        "cycle": "2-b",
+        "releaseLabel": "2 Model B",
+        "releaseDate": "2015-02-02",
+        "discontinued": "2026-01-01",
+        "link": "https://www.raspberrypi.com/products/raspberry-pi-2-model-b/",
+        "lts": false
+    },
+    {
+        "cycle": "1-a+",
+        "releaseLabel": "1 Model A+",
+        "releaseDate": "2014-11-10",
+        "discontinued": "2026-01-01",
+        "link": "https://www.raspberrypi.com/products/raspberry-pi-1-model-a-plus/",
+        "lts": false
+    },
+    {
+        "cycle": "1-b+",
+        "releaseLabel": "1 Model B+",
+        "releaseDate": "2014-07-14",
+        "discontinued": "2026-01-01",
+        "link": "https://www.raspberrypi.com/products/raspberry-pi-1-model-b-plus/",
+        "lts": false
+    },
+    {
+        "cycle": "CM1",
+        "releaseLabel": "Compute Module 1",
+        "releaseDate": "2014-04-07",
+        "discontinued": "2026-01-01",
+        "link": "https://www.raspberrypi.com/products/compute-module-1/",
+        "lts": false
+    },
+    {
+        "cycle": "1-a",
+        "releaseLabel": "1 Model A",
+        "releaseDate": "2013-02-04",
+        "discontinued": "2014-11-10",
+        "link": "https://www.raspberrypi.com/news/model-a-now-for-sale-in-europe-buy-one-today/",
+        "lts": false
+    },
+    {
+        "cycle": "1-b",
+        "releaseLabel": "1 Model B",
+        "releaseDate": "2012-03-01",
+        "discontinued": "2014-07-14",
+        "link": "https://www.raspberrypi.com/news/the-raspberry-pi-launch/",
+        "lts": false
+    }
+]

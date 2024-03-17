@@ -1,0 +1,20 @@
+[
+    {
+        "cycle": "3",
+        "releaseDate": "2022-11-16",
+        "support": true,
+        "eol": false,
+        "latest": "3.10.3",
+        "latestReleaseDate": "2024-02-22",
+        "lts": false
+    },
+    {
+        "cycle": "2",
+        "releaseDate": "2018-09-21",
+        "support": "2022-11-16",
+        "eol": "2024-06-30",
+        "latest": "2.17.3",
+        "latestReleaseDate": "2024-01-12",
+        "lts": false
+    }
+]

@@ -1,0 +1,457 @@
+[
+    {
+        "cycle": "motorola razr 40s",
+        "releaseDate": "2023-11-01",
+        "eol": "2027-11-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11651",
+        "lts": false
+    },
+    {
+        "cycle": "moto g84 5G",
+        "releaseDate": "2023-09-01",
+        "eol": "2026-09-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11601",
+        "lts": false
+    },
+    {
+        "cycle": "moto g54 5G",
+        "releaseDate": "2023-09-01",
+        "eol": "2026-09-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11600",
+        "lts": false
+    },
+    {
+        "cycle": "motorola edge (2023)",
+        "releaseDate": "2023-09-01",
+        "eol": "2026-09-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11576",
+        "lts": false
+    },
+    {
+        "cycle": "motorola edge 40 neo",
+        "releaseDate": "2023-09-01",
+        "eol": "2027-09-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11590",
+        "lts": false
+    },
+    {
+        "cycle": "motorola razr (2023)",
+        "releaseDate": "2023-09-01",
+        "eol": "2027-09-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11592",
+        "lts": false
+    },
+    {
+        "cycle": "moto g14",
+        "releaseDate": "2023-08-01",
+        "eol": "2026-08-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11597",
+        "lts": false
+    },
+    {
+        "cycle": "motorola razr 40",
+        "releaseDate": "2023-07-01",
+        "eol": "2027-07-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11591",
+        "lts": false
+    },
+    {
+        "cycle": "moto g stylus 5G (2023)",
+        "releaseDate": "2023-06-01",
+        "eol": "2026-06-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11492",
+        "lts": false
+    },
+    {
+        "cycle": "moto g53y 5G",
+        "releaseDate": "2023-06-01",
+        "eol": "2026-12-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11599",
+        "lts": false
+    },
+    {
+        "cycle": "moto g53j 5G",
+        "releaseDate": "2023-06-01",
+        "eol": "2026-12-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11585",
+        "lts": false
+    },
+    {
+        "cycle": "motorola razr 40 ultra",
+        "releaseDate": "2023-06-01",
+        "eol": "2027-06-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11577",
+        "lts": false
+    },
+    {
+        "cycle": "motorola razr+ (2023)",
+        "releaseDate": "2023-06-01",
+        "eol": "2027-06-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11489",
+        "lts": false
+    },
+    {
+        "cycle": "moto g 5G (2023)",
+        "releaseDate": "2023-05-01",
+        "eol": "2026-05-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11494",
+        "lts": false
+    },
+    {
+        "cycle": "motorola edge+ (2023)",
+        "releaseDate": "2023-05-01",
+        "eol": "2027-05-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11495",
+        "lts": false
+    },
+    {
+        "cycle": "motorola edge 40",
+        "releaseDate": "2023-05-01",
+        "eol": "2027-05-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11533",
+        "lts": false
+    },
+    {
+        "cycle": "moto g stylus (2023)",
+        "releaseDate": "2023-04-01",
+        "eol": "2026-04-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11493",
+        "lts": false
+    },
+    {
+        "cycle": "moto g power 5G (2023)",
+        "releaseDate": "2023-04-01",
+        "eol": "2026-04-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11490",
+        "lts": false
+    },
+    {
+        "cycle": "motorola edge 40 pro",
+        "releaseDate": "2023-04-01",
+        "eol": "2027-04-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11491",
+        "lts": false
+    },
+    {
+        "cycle": "moto g play 2023",
+        "releaseDate": "2023-01-01",
+        "eol": "2025-12-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11403",
+        "lts": false
+    },
+    {
+        "cycle": "moto g73 5G",
+        "releaseDate": "2023-01-01",
+        "eol": "2026-01-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11431",
+        "lts": false
+    },
+    {
+        "cycle": "moto g53 5G",
+        "releaseDate": "2023-01-01",
+        "eol": "2026-01-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11426",
+        "lts": false
+    },
+    {
+        "cycle": "moto g23",
+        "releaseDate": "2023-01-01",
+        "eol": "2026-01-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11430",
+        "lts": false
+    },
+    {
+        "cycle": "moto g13",
+        "releaseDate": "2023-01-01",
+        "eol": "2026-01-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11429",
+        "lts": false
+    },
+    {
+        "cycle": "moto e13",
+        "releaseDate": "2023-01-01",
+        "eol": "2025-01-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11427",
+        "lts": false
+    },
+    {
+        "cycle": "ThinkPhone by motorola",
+        "releaseDate": "2023-01-01",
+        "eol": "2027-01-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11418",
+        "lts": false
+    },
+    {
+        "cycle": "moto g72",
+        "releaseDate": "2022-10-01",
+        "eol": "2025-10-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11372",
+        "lts": false
+    },
+    {
+        "cycle": "moto e22s",
+        "releaseDate": "2022-10-01",
+        "eol": "2024-10-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11369",
+        "lts": false
+    },
+    {
+        "cycle": "moto e22i",
+        "releaseDate": "2022-10-01",
+        "eol": "2024-10-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11356",
+        "lts": false
+    },
+    {
+        "cycle": "moto e22",
+        "releaseDate": "2022-10-01",
+        "eol": "2024-10-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11357",
+        "lts": false
+    },
+    {
+        "cycle": "motorola razr (2022)",
+        "releaseDate": "2022-10-01",
+        "eol": "2025-10-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11371",
+        "lts": false
+    },
+    {
+        "cycle": "motorola edge 30 ultra",
+        "releaseDate": "2022-09-01",
+        "eol": "2026-09-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11368",
+        "lts": false
+    },
+    {
+        "cycle": "motorola edge 30 neo",
+        "releaseDate": "2022-09-01",
+        "eol": "2025-09-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11373",
+        "lts": false
+    },
+    {
+        "cycle": "motorola edge 30 fusion",
+        "releaseDate": "2022-09-01",
+        "eol": "2025-09-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11358",
+        "lts": false
+    },
+    {
+        "cycle": "moto g32",
+        "releaseDate": "2022-08-01",
+        "eol": "2025-08-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11354",
+        "lts": false
+    },
+    {
+        "cycle": "motorola edge (2022)",
+        "releaseDate": "2022-08-01",
+        "eol": "2025-08-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11319",
+        "lts": false
+    },
+    {
+        "cycle": "moto g62 5G",
+        "releaseDate": "2022-06-01",
+        "eol": "2025-06-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11297",
+        "lts": false
+    },
+    {
+        "cycle": "moto g52j 5G",
+        "releaseDate": "2022-06-01",
+        "eol": "2025-06-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11299",
+        "lts": false
+    },
+    {
+        "cycle": "moto g42",
+        "releaseDate": "2022-06-01",
+        "eol": "2025-06-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11309",
+        "lts": false
+    },
+    {
+        "cycle": "moto e32s",
+        "releaseDate": "2022-06-01",
+        "eol": "2024-06-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11248",
+        "lts": false
+    },
+    {
+        "cycle": "moto g82 5G",
+        "releaseDate": "2022-05-01",
+        "eol": "2025-05-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11292",
+        "lts": false
+    },
+    {
+        "cycle": "moto e32",
+        "releaseDate": "2022-05-01",
+        "eol": "2024-05-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11249",
+        "lts": false
+    },
+    {
+        "cycle": "motorola edge 30",
+        "releaseDate": "2022-05-01",
+        "eol": "2025-05-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11247",
+        "lts": false
+    },
+    {
+        "cycle": "moto g stylus 5G (2022)",
+        "releaseDate": "2022-04-01",
+        "eol": "2025-04-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11246",
+        "lts": false
+    },
+    {
+        "cycle": "moto g 5G (2022)",
+        "releaseDate": "2022-04-01",
+        "eol": "2025-04-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11241",
+        "lts": false
+    },
+    {
+        "cycle": "moto g52",
+        "releaseDate": "2022-04-01",
+        "eol": "2025-04-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11240",
+        "lts": false
+    },
+    {
+        "cycle": "moto g22",
+        "releaseDate": "2022-03-01",
+        "eol": "2025-03-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11235",
+        "lts": false
+    },
+    {
+        "cycle": "moto g stylus (2022)",
+        "releaseDate": "2022-02-01",
+        "eol": "2024-02-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11225",
+        "lts": false
+    },
+    {
+        "cycle": "motorola edge 30 pro",
+        "releaseDate": "2022-02-01",
+        "eol": "2025-02-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11220",
+        "lts": false
+    },
+    {
+        "cycle": "motorola edge+ (2022)",
+        "releaseDate": "2022-02-01",
+        "eol": "2025-02-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11221",
+        "lts": false
+    },
+    {
+        "cycle": "moto g power (2022)",
+        "releaseDate": "2021-11-01",
+        "eol": "2023-11-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11208",
+        "lts": false
+    },
+    {
+        "cycle": "moto g200 5G",
+        "releaseDate": "2021-11-01",
+        "eol": "2023-11-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11210",
+        "lts": false
+    },
+    {
+        "cycle": "moto g71 5G",
+        "releaseDate": "2021-11-01",
+        "eol": "2023-11-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11207",
+        "lts": false
+    },
+    {
+        "cycle": "moto g51 5G",
+        "releaseDate": "2021-11-01",
+        "eol": "2023-11-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11211",
+        "lts": false
+    },
+    {
+        "cycle": "moto g41",
+        "releaseDate": "2021-11-01",
+        "eol": "2023-11-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11198",
+        "lts": false
+    },
+    {
+        "cycle": "moto g31",
+        "releaseDate": "2021-11-01",
+        "eol": "2023-11-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11197",
+        "lts": false
+    },
+    {
+        "cycle": "moto g pure (2021)",
+        "releaseDate": "2021-11-01",
+        "eol": "2023-11-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11179",
+        "lts": false
+    },
+    {
+        "cycle": "moto g pure",
+        "releaseDate": "2021-09-01",
+        "eol": "2023-09-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11179",
+        "lts": false
+    },
+    {
+        "cycle": "moto e40",
+        "releaseDate": "2021-09-01",
+        "eol": "2023-09-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11178",
+        "lts": false
+    },
+    {
+        "cycle": "moto e30",
+        "releaseDate": "2021-09-01",
+        "eol": "2023-09-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11177",
+        "lts": false
+    },
+    {
+        "cycle": "moto e20",
+        "releaseDate": "2021-09-01",
+        "eol": "2023-09-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11168",
+        "lts": false
+    },
+    {
+        "cycle": "motorola edge 20 lite",
+        "releaseDate": "2021-08-01",
+        "eol": "2023-07-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11166",
+        "lts": false
+    },
+    {
+        "cycle": "motorola edge 20 fusion",
+        "releaseDate": "2021-08-01",
+        "eol": "2023-08-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11166",
+        "lts": false
+    },
+    {
+        "cycle": "motorola edge 20",
+        "releaseDate": "2021-08-01",
+        "eol": "2023-08-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11167",
+        "lts": false
+    },
+    {
+        "cycle": "motorola edge (2021)",
+        "releaseDate": "2021-08-01",
+        "eol": "2023-08-01",
+        "link": "https://en-us.support.motorola.com/app/software-security-update/g_id/7112/productid/11170",
+        "lts": false
+    }
+]

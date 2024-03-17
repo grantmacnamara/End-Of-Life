@@ -1,0 +1,67 @@
+[
+    {
+        "cycle": "iron",
+        "codename": "Iron Irwini",
+        "releaseDate": "2023-05-23",
+        "eol": "2024-11-01",
+        "lts": false
+    },
+    {
+        "cycle": "humble",
+        "codename": "Humble Hawksbill",
+        "releaseDate": "2022-05-23",
+        "eol": "2027-05-01",
+        "lts": false
+    },
+    {
+        "cycle": "galactic",
+        "codename": "Galactic Geochelone",
+        "releaseDate": "2021-05-23",
+        "eol": "2022-12-09",
+        "lts": false
+    },
+    {
+        "cycle": "foxy",
+        "codename": "Foxy Fitzroy",
+        "releaseDate": "2020-06-05",
+        "eol": "2023-05-01",
+        "lts": false
+    },
+    {
+        "cycle": "eloquent",
+        "codename": "Eloquent Elusor",
+        "releaseDate": "2019-11-22",
+        "eol": "2020-11-01",
+        "lts": false
+    },
+    {
+        "cycle": "dashing",
+        "codename": "Dashing Diademata",
+        "releaseDate": "2019-05-31",
+        "eol": "2021-05-01",
+        "lts": false
+    },
+    {
+        "cycle": "crystal",
+        "codename": "Crystal Clemmys",
+        "releaseDate": "2018-12-14",
+        "eol": "2019-12-01",
+        "lts": false
+    },
+    {
+        "cycle": "bouncy",
+        "codename": "Bouncy Bolson",
+        "releaseDate": "2018-07-02",
+        "eol": "2019-07-01",
+        "link": "https://docs.ros.org/en/rolling/Releases/Release-Bouncy-Bolson.html",
+        "lts": false
+    },
+    {
+        "cycle": "ardent",
+        "codename": "Ardent Apalone",
+        "releaseDate": "2017-12-08",
+        "eol": "2018-12-01",
+        "link": "https://docs.ros.org/en/rolling/Releases/Release-Ardent-Apalone.html",
+        "lts": false
+    }
+]

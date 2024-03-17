@@ -1,0 +1,58 @@
+[
+    {
+        "cycle": "1.15",
+        "releaseDate": "2023-09-22",
+        "eol": false,
+        "latest": "1.15.6",
+        "latestReleaseDate": "2024-02-28",
+        "lts": false
+    },
+    {
+        "cycle": "1.14",
+        "releaseDate": "2023-06-19",
+        "eol": false,
+        "latest": "1.14.10",
+        "latestReleaseDate": "2024-02-28",
+        "lts": false
+    },
+    {
+        "cycle": "1.13",
+        "releaseDate": "2023-03-01",
+        "eol": false,
+        "latest": "1.13.13",
+        "latestReleaseDate": "2024-01-29",
+        "lts": false
+    },
+    {
+        "cycle": "1.12",
+        "releaseDate": "2022-10-10",
+        "eol": "2023-09-27",
+        "latest": "1.12.11",
+        "latestReleaseDate": "2023-09-11",
+        "lts": false
+    },
+    {
+        "cycle": "1.11",
+        "releaseDate": "2022-06-17",
+        "eol": "2023-06-21",
+        "latest": "1.11.12",
+        "latestReleaseDate": "2023-06-19",
+        "lts": false
+    },
+    {
+        "cycle": "1.10",
+        "releaseDate": "2022-03-21",
+        "eol": "2023-03-01",
+        "latest": "1.10.11",
+        "latestReleaseDate": "2023-02-24",
+        "lts": false
+    },
+    {
+        "cycle": "1.9",
+        "releaseDate": "2021-11-16",
+        "eol": "2022-10-10",
+        "latest": "1.9.10",
+        "latestReleaseDate": "2022-09-15",
+        "lts": false
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "cycle": "10",
+        "releaseDate": "2023-03-30",
+        "support": true,
+        "eol": false,
+        "latest": "10.4.1",
+        "latestReleaseDate": "2024-02-23",
+        "link": "https://www.sonarsource.com/products/sonarqube/whats-new/sonarqube-10-0/",
+        "lts": false
+    },
+    {
+        "cycle": "9",
+        "releaseDate": "2021-07-05",
+        "support": "2023-03-30",
+        "eol": false,
+        "lts": "2023-02-07",
+        "latest": "9.9.4",
+        "latestReleaseDate": "2024-02-20",
+        "link": "https://www.sonarsource.com/products/sonarqube/downloads/lts/9-9-lts/"
+    },
+    {
+        "cycle": "8",
+        "releaseDate": "2019-10-15",
+        "support": "2021-07-05",
+        "eol": "2023-02-07",
+        "lts": "2021-05-04",
+        "latest": "8.9.10",
+        "latestReleaseDate": "2022-10-14",
+        "link": "https://www.sonarsource.com/products/sonarqube/downloads/lts/8-9-lts/"
+    },
+    {
+        "cycle": "7",
+        "releaseDate": "2018-02-02",
+        "support": "2019-10-16",
+        "eol": "2021-05-04",
+        "lts": "2019-07-01",
+        "latest": "7.9.6",
+        "latestReleaseDate": "2021-03-01",
+        "link": "https://web.archive.org/web/20220707010454/https://www.sonarqube.org/sonarqube-7-9-lts/"
+    }
+]

@@ -1,0 +1,66 @@
+[
+    {
+        "cycle": "20",
+        "releaseDate": "2022-12-31",
+        "eol": false,
+        "link": "https://lineageos.org/Changelog-27/",
+        "androidVersion": 13,
+        "lts": false
+    },
+    {
+        "cycle": "19",
+        "releaseDate": "2022-04-26",
+        "eol": false,
+        "link": "https://lineageos.org/Changelog-26/",
+        "androidVersion": 12,
+        "lts": false
+    },
+    {
+        "cycle": "18.1",
+        "releaseDate": "2021-04-01",
+        "eol": "2024-03-05",
+        "link": "https://lineageos.org/Changelog-25/",
+        "androidVersion": 11,
+        "lts": false
+    },
+    {
+        "cycle": "17.1",
+        "releaseDate": "2020-02-01",
+        "eol": "2022-04-26",
+        "link": "https://lineageos.org/Changelog-24/",
+        "androidVersion": 10,
+        "lts": false
+    },
+    {
+        "cycle": "16.0",
+        "releaseDate": "2019-03-01",
+        "eol": "2021-02-16",
+        "link": "https://lineageos.org/Changelog-22/",
+        "androidVersion": 9.0,
+        "lts": false
+    },
+    {
+        "cycle": "15.1",
+        "releaseDate": "2018-02-25",
+        "eol": true,
+        "link": "https://lineageos.org/Changelog-16/",
+        "androidVersion": 8.1,
+        "lts": false
+    },
+    {
+        "cycle": "14.1",
+        "releaseDate": "2017-01-22",
+        "eol": true,
+        "link": "https://www.lineageoslog.com/14.1",
+        "androidVersion": "7.1.2",
+        "lts": false
+    },
+    {
+        "cycle": "13.0",
+        "releaseDate": "2017-01-22",
+        "eol": true,
+        "link": "https://www.lineageoslog.com/13.0",
+        "androidVersion": "6.0.1",
+        "lts": false
+    }
+]

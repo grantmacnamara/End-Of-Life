@@ -1,0 +1,16 @@
+[
+    {
+        "cycle": "5",
+        "support": true,
+        "eol": false,
+        "extendedSupport": false,
+        "lts": false
+    },
+    {
+        "cycle": "4",
+        "lts": true,
+        "support": false,
+        "eol": "2023-06-30",
+        "extendedSupport": "2026-12-01"
+    }
+]

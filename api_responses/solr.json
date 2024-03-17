@@ -1,0 +1,18 @@
+[
+    {
+        "cycle": "9",
+        "releaseDate": "2022-05-11",
+        "eol": false,
+        "latest": "9.5.0",
+        "latestReleaseDate": "2024-02-12",
+        "lts": false
+    },
+    {
+        "cycle": "8",
+        "releaseDate": "2019-03-13",
+        "eol": false,
+        "latest": "8.11.3",
+        "latestReleaseDate": "2024-02-08",
+        "lts": false
+    }
+]

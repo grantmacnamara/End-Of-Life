@@ -1,0 +1,62 @@
+[
+    {
+        "cycle": "4.0",
+        "releaseLabel": "4.0",
+        "releaseDate": "2022-11-28",
+        "eol": false,
+        "pythonVersion": "3.10",
+        "sparkVersion": "3.3",
+        "link": "https://aws.amazon.com/about-aws/whats-new/2022/11/introducing-aws-glue-4-0/",
+        "lts": false
+    },
+    {
+        "cycle": "3.0",
+        "releaseLabel": "3.0",
+        "releaseDate": "2021-08-19",
+        "eol": false,
+        "pythonVersion": "3.7",
+        "sparkVersion": "3.1",
+        "link": "https://aws.amazon.com/blogs/big-data/introducing-aws-glue-3-0-with-optimized-apache-spark-3-1-runtime-for-faster-data-integration/",
+        "lts": false
+    },
+    {
+        "cycle": "2.0",
+        "releaseLabel": "2.0",
+        "releaseDate": "2020-08-10",
+        "eol": "2024-01-31",
+        "pythonVersion": "3.7",
+        "sparkVersion": "2.4",
+        "link": "https://aws.amazon.com/blogs/aws/aws-glue-version-2-0-featuring-10x-faster-job-start-times-and-1-minute-minimum-billing-duration/",
+        "lts": false
+    },
+    {
+        "cycle": "1.0-python-3",
+        "releaseLabel": "1.0 (Python 3)",
+        "releaseDate": "2019-07-25",
+        "eol": "2022-09-30",
+        "pythonVersion": "3.6",
+        "sparkVersion": "2.4",
+        "link": "https://docs.aws.amazon.com/glue/latest/dg/glue-version-support-policy.html",
+        "lts": false
+    },
+    {
+        "cycle": "1.0-python-2",
+        "releaseLabel": "1.0 (Python 2)",
+        "releaseDate": "2019-07-25",
+        "eol": "2022-06-01",
+        "pythonVersion": "2.7",
+        "sparkVersion": "2.4",
+        "link": "https://docs.aws.amazon.com/glue/latest/dg/glue-version-support-policy.html",
+        "lts": false
+    },
+    {
+        "cycle": "0.9",
+        "releaseLabel": "0.9",
+        "releaseDate": "2019-07-25",
+        "eol": "2022-06-01",
+        "pythonVersion": "2.7",
+        "sparkVersion": "2.2",
+        "link": "https://docs.aws.amazon.com/glue/latest/dg/glue-version-support-policy.html",
+        "lts": false
+    }
+]

@@ -1,0 +1,177 @@
+[
+    {
+        "cycle": "6.0",
+        "releaseDate": "2023-11-14",
+        "eol": false,
+        "latest": "6.0.1",
+        "latestReleaseDate": "2023-11-30",
+        "link": "https://activemq.apache.org/activemq-{{'__LATEST__'|replace:'.','00'}}-release",
+        "lts": false
+    },
+    {
+        "cycle": "5.18",
+        "releaseDate": "2023-03-18",
+        "eol": false,
+        "latest": "5.18.3",
+        "latestReleaseDate": "2023-10-24",
+        "lts": false
+    },
+    {
+        "cycle": "5.17",
+        "releaseDate": "2022-03-09",
+        "eol": false,
+        "latest": "5.17.6",
+        "latestReleaseDate": "2023-10-25",
+        "lts": false
+    },
+    {
+        "cycle": "5.16",
+        "releaseDate": "2020-06-25",
+        "eol": "2023-03-18",
+        "latest": "5.16.7",
+        "latestReleaseDate": "2023-10-25",
+        "lts": false
+    },
+    {
+        "cycle": "5.15",
+        "releaseDate": "2017-06-27",
+        "eol": "2022-03-09",
+        "latest": "5.15.16",
+        "latestReleaseDate": "2023-10-26",
+        "link": "https://activemq.apache.org/activemq-{{'__LATEST__'|replace:'.','0'}}-release",
+        "lts": false
+    },
+    {
+        "cycle": "5.14",
+        "releaseDate": "2016-08-02",
+        "eol": "2017-06-27",
+        "latest": "5.14.5",
+        "latestReleaseDate": "2017-04-11",
+        "lts": false
+    },
+    {
+        "cycle": "5.13",
+        "releaseDate": "2015-11-30",
+        "eol": "2016-12-16",
+        "latest": "5.13.5",
+        "latestReleaseDate": "2016-12-16",
+        "link": "https://activemq.apache.org/activemq-5013004-release",
+        "lts": false
+    },
+    {
+        "cycle": "5.12",
+        "releaseDate": "2015-08-10",
+        "eol": "2016-02-03",
+        "latest": "5.12.3",
+        "latestReleaseDate": "2016-02-03",
+        "link": "https://activemq.apache.org/activemq-5012002-release",
+        "lts": false
+    },
+    {
+        "cycle": "5.11",
+        "releaseDate": "2015-01-30",
+        "eol": "2016-02-03",
+        "latest": "5.11.4",
+        "latestReleaseDate": "2016-02-03",
+        "link": "https://activemq.apache.org/activemq-5011003-release",
+        "lts": false
+    },
+    {
+        "cycle": "5.10",
+        "releaseDate": "2014-06-05",
+        "eol": "2015-02-13",
+        "latest": "5.10.2",
+        "latestReleaseDate": "2015-02-13",
+        "lts": false
+    },
+    {
+        "cycle": "5.9",
+        "releaseDate": "2013-10-14",
+        "eol": "2014-06-05",
+        "latest": "5.9.1",
+        "latestReleaseDate": "2014-03-31",
+        "link": "https://activemq.apache.org/activemq-{{'__LATEST__'|replace:'.','00'}}-release",
+        "lts": false
+    },
+    {
+        "cycle": "5.8",
+        "releaseDate": "2013-02-06",
+        "eol": "2013-10-14",
+        "latest": "5.8.0",
+        "latestReleaseDate": "2013-02-06",
+        "link": "https://activemq.apache.org/activemq-{{'__LATEST__'|replace:'.','00'}}-release",
+        "lts": false
+    },
+    {
+        "cycle": "5.7",
+        "releaseDate": "2012-10-02",
+        "eol": "2013-02-06",
+        "latest": "5.7.0",
+        "latestReleaseDate": "2012-10-02",
+        "link": "https://activemq.apache.org/activemq-{{'__LATEST__'|replace:'.','00'}}-release",
+        "lts": false
+    },
+    {
+        "cycle": "5.6",
+        "releaseDate": "2012-05-02",
+        "eol": "2012-10-02",
+        "latest": "5.6.0",
+        "latestReleaseDate": "2012-05-02",
+        "link": "https://activemq.apache.org/activemq-{{'__LATEST__'|replace:'.','00'}}-release",
+        "lts": false
+    },
+    {
+        "cycle": "5.5",
+        "releaseDate": "2011-03-28",
+        "eol": "2012-05-02",
+        "latest": "5.5.1",
+        "latestReleaseDate": "2011-10-11",
+        "link": "https://activemq.apache.org/activemq-{{'__LATEST__'|replace:'.','00'}}-release",
+        "lts": false
+    },
+    {
+        "cycle": "5.4",
+        "releaseDate": "2010-08-13",
+        "eol": "2011-10-12",
+        "latest": "5.4.3",
+        "latestReleaseDate": "2011-10-12",
+        "link": "https://activemq.apache.org/activemq-{{'__LATEST__'|replace:'.','00'}}-release",
+        "lts": false
+    },
+    {
+        "cycle": "5.3",
+        "releaseDate": "2009-10-23",
+        "eol": "2010-08-13",
+        "latest": "5.3.1",
+        "latestReleaseDate": "2010-03-18",
+        "link": "https://activemq.apache.org/activemq-{{'__LATEST__'|replace:'.','00'}}-release",
+        "lts": false
+    },
+    {
+        "cycle": "5.2",
+        "releaseDate": "2009-06-30",
+        "eol": "2009-10-23",
+        "latest": "5.2.0",
+        "latestReleaseDate": "2009-06-30",
+        "link": "https://activemq.apache.org/activemq-{{'__LATEST__'|replace:'.','00'}}-release",
+        "lts": false
+    },
+    {
+        "cycle": "5.1",
+        "releaseDate": "2008-05-01",
+        "eol": "2009-06-30",
+        "latest": "5.1.0",
+        "latestReleaseDate": "2008-05-01",
+        "link": "https://activemq.apache.org/activemq-{{'__LATEST__'|replace:'.','00'}}-release",
+        "lts": false
+    },
+    {
+        "cycle": "5.0",
+        "releaseDate": "2007-12-07",
+        "eol": "2008-05-01",
+        "latest": "5.0.0",
+        "latestReleaseDate": "2007-12-07",
+        "link": "https://activemq.apache.org/activemq-{{'__LATEST__'|replace:'.','00'}}-release",
+        "lts": false
+    }
+]

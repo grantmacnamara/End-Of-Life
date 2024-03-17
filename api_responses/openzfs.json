@@ -1,0 +1,42 @@
+[
+    {
+        "cycle": "2.2",
+        "supportedLinux": "3.10 - 6.5",
+        "supportedFreeBSD": "12.2-RELEASE+",
+        "releaseDate": "2023-10-12",
+        "eol": false,
+        "latest": "2.2.3",
+        "latestReleaseDate": "2024-02-22",
+        "lts": false
+    },
+    {
+        "cycle": "2.1",
+        "lts": true,
+        "supportedLinux": "3.10 - 6.5",
+        "supportedFreeBSD": "12.2-RELEASE+",
+        "releaseDate": "2021-07-02",
+        "eol": false,
+        "latest": "2.1.15",
+        "latestReleaseDate": "2024-02-26"
+    },
+    {
+        "cycle": "2.0",
+        "supportedLinux": "3.10 - 5.15",
+        "supportedFreeBSD": "12.2-RELEASE+",
+        "releaseDate": "2020-11-30",
+        "eol": "2021-12-23",
+        "latest": "2.0.7",
+        "latestReleaseDate": "2021-12-23",
+        "lts": false
+    },
+    {
+        "cycle": "0.8",
+        "supportedLinux": "2.6.32 - 5.9",
+        "supportedFreeBSD": "N/A",
+        "releaseDate": "2019-05-21",
+        "eol": "2020-12-14",
+        "latest": "0.8.6",
+        "latestReleaseDate": "2020-12-14",
+        "lts": false
+    }
+]
