@@ -19,14 +19,14 @@ def extract_version(cycle):
             return 0, 0
     return 0, 0
 
-with open('applications.json', 'r') as f:
+with open('./data/applications.json', 'r') as f:
     applications = json.load(f)
 
 def get_application_data():
     application_data = []
     for app_name in applications:
         # Load data from corresponding JSON file in api_responses folder
-        json_file = os.path.join('api_responses', f'{app_name}.json')
+        json_file = os.path.join('./data/api_responses', f'{app_name}.json')
         with open(json_file, 'r') as f:
             app_info = json.load(f)
 
