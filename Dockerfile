@@ -11,13 +11,9 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the application code into the container
-COPY app.py .
-COPY getApplicationData.py .
+COPY . .
 
 # Copy the data folder into the container
-COPY data /usr/src/app/data
-COPY templates /usr/src/app/templates
-COPY static /usr/src/app/static
 # Expose the port your app runs on
 EXPOSE 5000
 
